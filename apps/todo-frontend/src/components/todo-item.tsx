@@ -24,7 +24,7 @@ const TodoItem: React.FC<Props> = ({ todo, onToggle, onDelete }: Props) => {
         className="cursor-pointer hover:underline"
         onClick={() => onToggle(todo.id)}
       >
-        [{todo.completed ? 'X' : ' '}]
+        [{todo.completed ? 'x' : ' '}]
       </span>
       {' '}
       {strip(todo.title, 25)}
