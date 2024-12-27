@@ -1,1 +1,13 @@
 @import "tailwindcss";
+
+
+@layer base {
+  body {
+    @apply font-mono text-lg bg-slate-950 text-slate-100 select-none
+  }
+  input {
+    @apply focus:outline-none
+  }
+}
+
+
